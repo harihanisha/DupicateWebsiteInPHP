@@ -37,8 +37,8 @@ Hellen Harry
             $email_message .= "Email: ".$email."\n";
             $email_message .= "Response: ".$response."\n" ;
             $email_subject= "Contact Information";
-            //$email_to="info@bemoacademicconsulting.com";//
-            $email_to="students@cstutoring.com";
+            $email_to="info@bemoacademicconsulting.com";
+          
             // create email headers
             $headers = 'From: '.$email."\r\n".
             'Reply-To: '.$email."\r\n" .
